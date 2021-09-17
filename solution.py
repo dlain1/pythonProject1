@@ -21,10 +21,10 @@ def welcome_assignment_questions(question: object) -> object:
         answer = "No"
     elif "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric " \
          "number" == question:
-        answer = int(5)
+        answer = 5
     elif "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric " \
          "number" == question:
-        answer = int(4)
+        answer = 4
 
     return welcome_assignment_questions()
 
