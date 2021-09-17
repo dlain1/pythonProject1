@@ -13,17 +13,13 @@ def welcome_assignment_questions(question: object) -> object:
         answer = "Yes"
     elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
         answer = "No"
-    elif not question != "What is the MD5 hashing value to the following message: 'NYU Computer Networking'- Use " \
-                         "MD5 hash " \
-                         "generator and use the answer in your code":
+    elif question == "What is the MD5 hashing value to the following message: 'NYU Computer Networking'- Use MD5 hash generator and use the answer in your code": 
         answer = "42b76fe51778764973077a5a94056724"
     elif "Is MD5 a secured hashing algorithm? - Yes/No" == question:
         answer = "No"
-    elif "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric " \
-         "number" == question:
+    elif "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number" == question:
         answer = 5
-    elif "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric " \
-         "number" == question:
+    elif "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric number" == question:
         answer = 4
 
     return welcome_assignment_questions()
